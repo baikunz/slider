@@ -4,6 +4,10 @@
 
 <script>
 export default {
+  model: {
+    event: 'change',
+  },
+
   props: {
     min: {
       type: Number,
